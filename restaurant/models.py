@@ -4,11 +4,7 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 
-
-
 # Restaurant 
-
-
 class Restaurant(models.Model):
     
     class TypeChoices(models.TextChoices):
